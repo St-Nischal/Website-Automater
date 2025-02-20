@@ -17,9 +17,9 @@ Prerequisites:
 
 Installation:
 
-    Clone this repository or download the script.
+  * Clone this repository or download the script.
 
-    Ensure Python is installed (Python 3 recommended).
+  * Ensure Python is installed (Python 3 recommended).
 
 Usage: Run the script from the command line with one of the predefined categories.
 
@@ -37,20 +37,20 @@ Available Categories:
 
 How It Works
 
-    1.The script takes a command-line argument specifying the category (work or personal).
+  1.The script takes a command-line argument specifying the category (work or personal).
 
-    2.It retrieves the corresponding list of URLs.
+  2.It retrieves the corresponding list of URLs.
 
-    3.It opens each URL in a new browser tab.
+  3.It opens each URL in a new browser tab.
 
 Customization
 
     To add more website categories, modify the urls dictionary in the script:
 
-urls = {
-    "work": ["www.stackoverflow.com", "www.google.com"],
-    "personal": ["www.youtube.com", "www.netflix.com"],
-    "study": ["www.khanacademy.org", "www.coursera.org"]
-}
+    urls = {
+      "work": ["www.stackoverflow.com", "www.google.com"],
+      "personal": ["www.youtube.com", "www.netflix.com"],
+      "study": ["www.khanacademy.org", "www.coursera.org"]
+    }
 
 Author: Nischal Poudel
